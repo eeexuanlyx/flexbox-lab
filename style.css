@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.destinations {
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+  border-color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.actions {
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+  border-color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.destinations p,
+.actions p,
+.actions button {
+  color: black;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 460px;
+  background-color: black;
+  color: white;
+  padding: 24px 72px;
+  gap: 20px;
+}
+
+.headers {
+  text-align: center;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+input {
+  align-self: center;
+  height: 58px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 29px;
+  border: 0px;
+  padding: 0 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: white;
+  padding: 32px 72px;
+}
+
+.actions button {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.img-placeholder {
+  width: 355px;
+  height: 270px;
+  background-color: gray;
+  border-radius: 8px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.card-footer * {
+  margin-top: 8px;
+}
+
+#subnav {
+  padding: 32px 72px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#subnav button {
+  border-radius: 8px;
+  padding: 10px 16px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 10px;
+}
+
+#trending p {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 6px 15px;
+}
